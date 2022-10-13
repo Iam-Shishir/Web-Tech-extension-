@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "image", 
+    "description": "cat dance extension.",
+    "version": "1.0", 
+    "author": "shaurya",
+    "browser_action":
+    {
+        "default_popup": "cat.html", "default_title": "cat dance Extension"
+    },
+    "permissions":
+    [
+        "active Tab"
+    ]
+}
